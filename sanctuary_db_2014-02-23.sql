@@ -120,7 +120,7 @@ LOCK TABLES `wp_options` WRITE;
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`)
 VALUES
-	(1,'siteurl','http://localhost:8888','yes'),
+	(1,'siteurl','http://mcadphpwp.allisonklement.com/','yes'),
 	(2,'blogname','Sanctuary','yes'),
 	(3,'blogdescription','Just another WordPress site','yes'),
 	(4,'users_can_register','0','yes'),
@@ -155,7 +155,7 @@ VALUES
 	(33,'blog_charset','UTF-8','yes'),
 	(34,'moderation_keys','','no'),
 	(35,'active_plugins','a:3:{i:0;s:27:\"acf-gallery/acf-gallery.php\";i:1;s:29:\"acf-repeater/acf-repeater.php\";i:2;s:30:\"advanced-custom-fields/acf.php\";}','yes'),
-	(36,'home','http://localhost:8888','yes'),
+	(36,'home','http://mcadphpwp.allisonklement.com/','yes'),
 	(37,'category_base','','yes'),
 	(38,'ping_sites','http://rpc.pingomatic.com/','yes'),
 	(39,'advanced_edit','0','yes'),
